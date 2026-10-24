@@ -210,9 +210,9 @@
     }
   ],
   "setup": "/nexora/setup",
-  "signature": "XYi1LSld1wkEyTtUb5E5ddYNBwDkr247dqyuazGpII4jtFoXsum36YN8TYH/c5k6cjJxPheyF7MgUi/I2ek5Cg==",
+  "signature": "744sL45+LFGq5WMYyhp894qzeEzv9M9EcIQhbhV4FIoHZzQ+gBgBQLpvb3yIoG4RFfdDITOUeifcAyZXLZFfAg==",
   "slug": "shop",
   "ui": "/",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "webhook": "/nexora/events"
 }

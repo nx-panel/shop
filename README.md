@@ -58,12 +58,12 @@ when something is wrong.
 
 | Guide | What it covers |
 | --- | --- |
-| [The admin web](docs/admin.md) | every page, the bot's texts, the reports |
-| [Payments](docs/payments.md) | card-to-card with receipts and the bank's SMS, the generic gateway, exchange rates |
-| [The web app](docs/portal.md) | the portal and the Telegram mini-app, sign-in by email, SMS or the bot |
-| [Codes and referrals](docs/promotions.md) | discount codes, gift codes, the referral reward |
-| [Agents](docs/agents.md) | levels, prepaid agents, their statement |
-| [Backup and restore](docs/backup.md) | Shop's own encrypted backup, moving to a new host, after a panel restore |
+| [The admin web](https://docs.nexora-panel.org/addons/shop) | every page, the bot's texts, the reports |
+| [Payments](https://docs.nexora-panel.org/addons/shop-payments) | card-to-card with receipts and the bank's SMS, the generic gateway, exchange rates |
+| [The web app](https://docs.nexora-panel.org/addons/shop-portal) | the portal and the Telegram mini-app, sign-in by email, SMS or the bot |
+| [Codes and referrals](https://docs.nexora-panel.org/addons/shop-promotions) | discount codes, gift codes, the referral reward |
+| [Agents](https://docs.nexora-panel.org/addons/shop-agents) | levels, prepaid agents, their statement |
+| [Backup and restore](https://docs.nexora-panel.org/addons/shop-backup) | Shop's own encrypted backup, moving to a new host, after a panel restore |
 
 ## Customers' languages
 
