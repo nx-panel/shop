@@ -4,6 +4,6 @@
 
 این راهنما حالا در سایت مستندات است، با تصویر، جستجو و هر چهار زبان:
 
-- [فروشگاه: پشتیبان‌گیری](https://docs.nexora-panel.org/fa/addons/shop-backup)
+- [فروشگاه: پشتیبان‌گیری](https://docs.nx-panel.org/fa/addons/shop-backup)
 
-همهٔ مستندات: https://docs.nexora-panel.org/fa/
+همهٔ مستندات: https://docs.nx-panel.org/fa/

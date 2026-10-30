@@ -4,6 +4,6 @@
 
 This guide now lives on the documentation site, with screenshots, search and all four languages:
 
-- [Shop: payments](https://docs.nexora-panel.org/addons/shop-payments)
+- [Shop: payments](https://docs.nx-panel.org/addons/shop-payments)
 
-The whole documentation: https://docs.nexora-panel.org/
+The whole documentation: https://docs.nx-panel.org/

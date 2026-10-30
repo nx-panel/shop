@@ -4,6 +4,6 @@
 
 This guide now lives on the documentation site, with screenshots, search and all four languages:
 
-- [Shop: backup](https://docs.nexora-panel.org/addons/shop-backup)
+- [Shop: backup](https://docs.nx-panel.org/addons/shop-backup)
 
-The whole documentation: https://docs.nexora-panel.org/
+The whole documentation: https://docs.nx-panel.org/

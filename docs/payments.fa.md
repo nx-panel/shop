@@ -4,6 +4,6 @@
 
 این راهنما حالا در سایت مستندات است، با تصویر، جستجو و هر چهار زبان:
 
-- [فروشگاه: پرداخت‌ها](https://docs.nexora-panel.org/fa/addons/shop-payments)
+- [فروشگاه: پرداخت‌ها](https://docs.nx-panel.org/fa/addons/shop-payments)
 
-همهٔ مستندات: https://docs.nexora-panel.org/fa/
+همهٔ مستندات: https://docs.nx-panel.org/fa/

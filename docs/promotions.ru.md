@@ -4,6 +4,6 @@
 
 Это руководство теперь на сайте документации — со снимками экрана, поиском и на всех четырёх языках:
 
-- [Shop: акции](https://docs.nexora-panel.org/ru/addons/shop-promotions)
+- [Shop: акции](https://docs.nx-panel.org/ru/addons/shop-promotions)
 
-Вся документация: https://docs.nexora-panel.org/ru/
+Вся документация: https://docs.nx-panel.org/ru/

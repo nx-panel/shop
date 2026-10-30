@@ -6,7 +6,7 @@
     "ru": "Продажа тарифов панели: Telegram-бот, веб- и мини-приложение; чеки с карты на карту, банковские SMS и свои шлюзы; кошелёк, продления, коды, рефералы и агенты; отчёты и шифрованный бэкап — на четырёх языках.",
     "zh": "销售面板的套餐：Telegram 机器人、网页应用和小程序；卡对卡转账凭证、银行短信转发和您自己的支付网关；钱包、续费、折扣码和礼品码、推荐与代理；报表和加密备份——支持波斯语、英语、俄语和中文。"
   },
-  "docs": "https://github.com/Nexora-VPN/shop",
+  "docs": "https://github.com/nx-panel/shop",
   "events": [
     "panel.addon_removed",
     "user.deleted",
@@ -21,12 +21,12 @@
   "health": "/health",
   "install": {
     "binary": {
-      "linux-amd64": "nexora-shop-linux-amd64.tar.gz",
-      "linux-arm64": "nexora-shop-linux-arm64.tar.gz"
+      "linux-amd64": "nx-shop-linux-amd64.tar.gz",
+      "linux-arm64": "nx-shop-linux-arm64.tar.gz"
     },
     "docker": {
       "compose": "deploy/compose.yml",
-      "image": "ghcr.io/nexora-vpn/shop"
+      "image": "ghcr.io/nx-panel/shop"
     },
     "options": [
       {
@@ -190,10 +190,10 @@
     ]
   },
   "license": "proprietary",
-  "name": "Nexora Shop",
-  "publisher": "Nexora",
+  "name": "NX Shop",
+  "publisher": "NX",
   "requires": {
-    "panel": "\u003e=0.0.3"
+    "panel": "\u003e=0.1.0"
   },
   "scopes": [
     {
@@ -209,10 +209,10 @@
       "scope": "backup:deliver"
     }
   ],
-  "setup": "/nexora/setup",
-  "signature": "744sL45+LFGq5WMYyhp894qzeEzv9M9EcIQhbhV4FIoHZzQ+gBgBQLpvb3yIoG4RFfdDITOUeifcAyZXLZFfAg==",
+  "setup": "/nx/setup",
+  "signature": "ag4YgVV3/KjZXJCJYtRFaryunrIA71+FREaGAIUfP4F7q+vLgcyK/VV4YMIKHzYvsIjuNwCNc/XxJQCKZfauAA==",
   "slug": "shop",
   "ui": "/",
-  "version": "0.0.3",
-  "webhook": "/nexora/events"
+  "version": "0.1.0",
+  "webhook": "/nx/events"
 }

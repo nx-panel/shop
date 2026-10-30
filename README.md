@@ -1,6 +1,6 @@
-# Nexora Shop
+# NX Shop
 
-The official [Nexora](https://nexora-panel.org) addon that sells a panel's
+The official [NX](https://nx-panel.org) addon that sells a panel's
 plans: products, orders, a wallet, card-to-card and gateway payments, a
 Telegram bot, a web app, discount and gift codes, referrals and agents.
 
@@ -9,23 +9,23 @@ Languages: **English** · [فارسی](docs/fa.md) · [Русский](docs/ru.m
 ## Install
 
 From the panel (recommended): **Services → Addons → Browse**, pick
-**Nexora Shop**, answer the questions, and either let the panel install it on
+**NX Shop**, answer the questions, and either let the panel install it on
 a host over SSH or run the command it gives you. The panel registers Shop by
 itself once its health check answers.
 
 By hand, on a Linux host, as root:
 
 ```sh
-curl -fsSLO https://raw.githubusercontent.com/Nexora-VPN/shop/main/install.sh
+curl -fsSLO https://raw.githubusercontent.com/nx-panel/shop/main/install.sh
 sh install.sh --method script --opt port=8095 --panel-url https://your-panel --claim-code XXXX-XXXX-XXXX-XXXX
 ```
 
 | Method | What runs |
 | --- | --- |
-| `--method script` | the binary under the systemd unit `nexora-addon-shop` |
-| `--method docker` | the compose stack in [`deploy/compose.yml`](deploy/compose.yml) (`ghcr.io/nexora-vpn/shop`) |
+| `--method script` | the binary under the systemd unit `nx-addon-shop` |
+| `--method docker` | the compose stack in [`deploy/compose.yml`](deploy/compose.yml) (`ghcr.io/nx-panel/shop`) |
 
-Everything lives in `/opt/nexora-addons/shop`: the answers in `.env`, the data
+Everything lives in `/opt/nx-addons/shop`: the answers in `.env`, the data
 in `data/`.
 
 - **Update:** run `sh install.sh` again (or **Update on its host** in the
@@ -58,12 +58,12 @@ when something is wrong.
 
 | Guide | What it covers |
 | --- | --- |
-| [The admin web](https://docs.nexora-panel.org/addons/shop) | every page, the bot's texts, the reports |
-| [Payments](https://docs.nexora-panel.org/addons/shop-payments) | card-to-card with receipts and the bank's SMS, the generic gateway, exchange rates |
-| [The web app](https://docs.nexora-panel.org/addons/shop-portal) | the portal and the Telegram mini-app, sign-in by email, SMS or the bot |
-| [Codes and referrals](https://docs.nexora-panel.org/addons/shop-promotions) | discount codes, gift codes, the referral reward |
-| [Agents](https://docs.nexora-panel.org/addons/shop-agents) | levels, prepaid agents, their statement |
-| [Backup and restore](https://docs.nexora-panel.org/addons/shop-backup) | Shop's own encrypted backup, moving to a new host, after a panel restore |
+| [The admin web](https://docs.nx-panel.org/addons/shop) | every page, the bot's texts, the reports |
+| [Payments](https://docs.nx-panel.org/addons/shop-payments) | card-to-card with receipts and the bank's SMS, the generic gateway, exchange rates |
+| [The web app](https://docs.nx-panel.org/addons/shop-portal) | the portal and the Telegram mini-app, sign-in by email, SMS or the bot |
+| [Codes and referrals](https://docs.nx-panel.org/addons/shop-promotions) | discount codes, gift codes, the referral reward |
+| [Agents](https://docs.nx-panel.org/addons/shop-agents) | levels, prepaid agents, their statement |
+| [Backup and restore](https://docs.nx-panel.org/addons/shop-backup) | Shop's own encrypted backup, moving to a new host, after a panel restore |
 
 ## Customers' languages
 
@@ -81,7 +81,7 @@ texts**).
 By default Shop tells customers about their accounts: its own reminders
 before expiry and the panel's warnings — expiring, expired, traffic used or
 used up, renewed or deleted on the panel. If you run the
-[notifier](https://github.com/Nexora-VPN/notif), which does this for every
+[notifier](https://github.com/nx-panel/notif), which does this for every
 account on the panel, turn **Shop tells customers about expiry, traffic,
 renewals and deletions** off under **Settings**, so nobody hears it twice.
 What Shop does itself — a purchase, a receipt, the wallet, an automatic
@@ -101,10 +101,10 @@ panel's licence or make room, then press **Reopen sales** on the dashboard.
 
 | File | What it is |
 | --- | --- |
-| [`nexora-addon.json`](nexora-addon.json) | the manifest, signed by Nexora; the directory and the panel read it here |
+| [`nx-addon.json`](nx-addon.json) | the manifest, signed by NX; the directory and the panel read it here |
 | [`install.sh`](install.sh) | install, update or remove on a Linux host |
 | [`deploy/compose.yml`](deploy/compose.yml) | the stack the docker method runs |
 
 Releases carry the binaries for `linux-amd64` and `linux-arm64` with their
-`SHA256SUMS`, and `SHA256SUMS.sig`, Nexora's signature over it: the panel
+`SHA256SUMS`, and `SHA256SUMS.sig`, NX's signature over it: the panel
 installs Shop over SSH only when `install.sh` and the binary match it. Shop is free and closed-source — see [LICENSE](LICENSE).

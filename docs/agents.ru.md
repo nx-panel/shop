@@ -4,6 +4,6 @@
 
 Это руководство теперь на сайте документации — со снимками экрана, поиском и на всех четырёх языках:
 
-- [Shop: агенты](https://docs.nexora-panel.org/ru/addons/shop-agents)
+- [Shop: агенты](https://docs.nx-panel.org/ru/addons/shop-agents)
 
-Вся документация: https://docs.nexora-panel.org/ru/
+Вся документация: https://docs.nx-panel.org/ru/
