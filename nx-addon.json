@@ -210,9 +210,9 @@
     }
   ],
   "setup": "/nx/setup",
-  "signature": "ag4YgVV3/KjZXJCJYtRFaryunrIA71+FREaGAIUfP4F7q+vLgcyK/VV4YMIKHzYvsIjuNwCNc/XxJQCKZfauAA==",
+  "signature": "4E44eW0Qfl9VgjrMlENlWPYkRf8bwkBT3pq/SABICgrEL+w99tq8I0L6hMWAdCNIFtzJhXG8aOAsXvydwqzmDg==",
   "slug": "shop",
   "ui": "/",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "webhook": "/nx/events"
 }
