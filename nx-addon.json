@@ -173,6 +173,38 @@
       },
       {
         "help": {
+          "en": "Only behind a reverse proxy (the panel's ingress, nginx, a CDN): its addresses or ranges, comma-separated, e.g. 127.0.0.1. Its X-Forwarded-For then names the visitor, so limits count each one apart. Empty: no header is believed.",
+          "fa": "فقط پشت پراکسی معکوس (اینگرس پنل، nginx): نشانی یا بازه‌هایش، مثل 127.0.0.1. محدودیت‌ها هر بازدیدکننده را جدا می‌شمارند. خالی: بی‌اعتماد.",
+          "ru": "Только за обратным прокси (ingress панели, nginx): его адреса, напр. 127.0.0.1. Лимиты считают каждого посетителя. Пусто: не доверять.",
+          "zh": "仅在反向代理（面板 ingress、nginx）之后：其地址或网段，如 127.0.0.1。限制按访客分别计数。留空：不信任。"
+        },
+        "key": "trusted_proxies",
+        "label": {
+          "en": "Trusted reverse proxies",
+          "fa": "پراکسی‌های معکوس مورد اعتماد",
+          "ru": "Доверенные обратные прокси",
+          "zh": "受信任的反向代理"
+        },
+        "type": "string"
+      },
+      {
+        "help": {
+          "en": "Empty: every interface. 127.0.0.1 only for a reverse proxy on this server: nothing then reaches Shop around it, and the panel, customers and gateways must reach Shop through the proxy.",
+          "fa": "خالی: همهٔ کارت‌ها. 127.0.0.1 فقط برای پراکسی معکوس روی همین سرور؛ پنل، مشتری‌ها و درگاه‌ها باید از همان پراکسی برسند.",
+          "ru": "Пусто: все интерфейсы. 127.0.0.1 — только для обратного прокси на этом сервере; панель, клиенты и шлюзы — через него.",
+          "zh": "留空：所有网卡。127.0.0.1 仅用于本机反向代理；面板、客户和支付网关须经该代理访问。"
+        },
+        "key": "listen",
+        "label": {
+          "en": "Listen address",
+          "fa": "نشانی گوش‌دادن",
+          "ru": "Адрес прослушивания",
+          "zh": "监听地址"
+        },
+        "type": "string"
+      },
+      {
+        "help": {
           "en": "From @BotFather. Optional: the bot can be set later in Shop. Use a bot of its own, not the panel's.",
           "fa": "از ‎@BotFather. اختیاری است و بعداً در فروشگاه هم می‌شود تنظیمش کرد. یک ربات جدا بسازید، نه ربات پنل.",
           "ru": "От @BotFather. Необязательно: бота можно задать позже в Shop. Нужен отдельный бот, не бот панели.",
@@ -210,9 +242,9 @@
     }
   ],
   "setup": "/nx/setup",
-  "signature": "4E44eW0Qfl9VgjrMlENlWPYkRf8bwkBT3pq/SABICgrEL+w99tq8I0L6hMWAdCNIFtzJhXG8aOAsXvydwqzmDg==",
+  "signature": "RqtCnEZNlGKVkCjIXQ8zYY8OBuMFfNZOIARBjjZHfXyh/1JyqPffhd7l2iyIWyZSCqhGhrpVOfchSePW0ngACQ==",
   "slug": "shop",
   "ui": "/",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "webhook": "/nx/events"
 }
